@@ -1,5 +1,16 @@
 {
+  "name": "Oscar Web App",
+  "version": "1.0.0",
+  "description": "Oscar Institutions - Kovilpatti",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "react-router-dom": "^6.20.1"
-  }
+  },
+  "author": "Oscar Institutions",
+  "main": "server.js"
 }
