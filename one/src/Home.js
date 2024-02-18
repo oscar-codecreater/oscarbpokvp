@@ -10,7 +10,7 @@ const Home = () => {
                 <p>Welcome</p>
                 <p>To</p>
                 <p>Oscar Private Ltd.,</p>
-                <p>Data Entry Services</p>
+                <p>Data Entry Services and Many More</p>
                <Link to='contact'> <button  className='button'>Contact-Us</button></Link>
             </div>
         </div>
