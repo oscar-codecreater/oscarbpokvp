@@ -9,7 +9,7 @@ const About = () => {
         <div className='about' id='about'>
             <div className='container'>
                 <div className='col-2'>
-                    <h2>About</h2>
+                    <h2>About - Us</h2>
                     <span className='line'></span>
                     <h1>OSCAR BPO</h1><h3>Your Trusted Partner in Data Excellence</h3>
                     <p>Welcome to OSCAR, a premier Business Process Outsourcing (BPO) service provider specializing in accurate and efficient data entry solutions. At Oscar, we understand the critical role that data plays in the success of your business, and we are here to be your trusted partner in ensuring data excellence.</p>
