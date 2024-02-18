@@ -32,5 +32,3 @@ sudo npm install
 
 echo installing pm2
 sudo npm install pm2 -g
-sudo npm run build
-sudo cp -r /var/www/one/build/* /var/www/html/
