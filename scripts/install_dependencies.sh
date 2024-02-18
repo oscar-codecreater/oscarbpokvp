@@ -25,13 +25,12 @@ fi
 # we need to traverse to where the application bundle is copied too.
 echo installing application with npm
 # deleting old files
-sudo rm -r /var/www/html/
+sudo rm -r /var/www/html/*
 
 cd /var/www/one/
 sudo npm install
 
 echo installing pm2
 sudo npm install pm2 -g
-
-cd /var/www/one/build/
-sudo cp -r * /var/www/html/
+sudo npm run build
+sudo cp -r /var/www/one/build/* /var/www/html/
